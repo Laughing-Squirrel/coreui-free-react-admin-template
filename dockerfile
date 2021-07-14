@@ -2,7 +2,7 @@
 FROM node:12.14.1-alpine3.10 as coreui
 
 LABEL verison="0.0.0.0.0.1" \
-      run="docker run -d --name logisticsSF -p 5000:5000 -p 8081:8081 laughing-squirrel\coreui-free-react-admin-template \
+      run="docker run -d --name logisticsSF -p 5000:5000 -p 8081:8081 laughing-squirrel\coreui-free-react-admin-template" \
       description="Logistics Storefront Alpha" \
       maintainer="keith@laughingsquirrel.net"
       
